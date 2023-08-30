@@ -111,8 +111,8 @@ html {
 .cuadrado2 {
 	height: 80px;
 	width: 80px;
-	/*background-color: rgba(20, 040, 0150, 1.0);*/
-	background-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(20, 040, 0150, 1.0);
+	/*background-color: rgba(255, 255, 255, 1.0);*/
 	position: absolute;
 	left: 60px;
 	top: 100px;
