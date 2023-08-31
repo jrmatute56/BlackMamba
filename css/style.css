@@ -95,23 +95,35 @@ html {
 }
 
 
+/* Tipos de Fuentes */
+
+.tipoMonserrat {
+	font-family: "Montserrat";
+}
+
+.tipoAnton {
+	font-family: "Anton";
+}
+
+.tipoArchivoBlack {
+	font-family: "Archivo+Black";
+}
+
+
 
 
 /* Texto Colores */
 
 .TextorojoCarmesi {
-	font-family: "Anton";
 	color: #EF1313;
 }
 
 .Textopurpura {
-	font-family: "Archivo+Black";
 	color: #7A2F92;
 }
 
 
 .TextoVerde {
-	font-family: "Montserrat";
 	color: #224D31;
 }
 
