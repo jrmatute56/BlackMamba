@@ -77,11 +77,50 @@ html {
 }
 
 
+/* CAMBIO COLOR TEXTO NAV BAR */
+
+
+
+.nav-link {
+	color: #DF3F59 !important;
+
+}
+
+.dropdown-item {
+		color: #DF3F59 !important;
+}
+
+.btn {
+	color: #DF3F59 !important;
+}
+
+
+
+
+/* Texto Colores */
+
+.TextorojoCarmesi {
+	font-family: "Anton";
+	color: #EF1313;
+}
+
+.Textopurpura {
+	font-family: "Archivo+Black";
+	color: #7A2F92;
+}
+
+
+.TextoVerde {
+	font-family: "Montserrat";
+	color: #224D31;
+}
+
+
 /*Modificar contenedor*/
 
 
 .contenedor {
-  background-color: rgba(118,89,93, 1.0);
+  background-color: rgba(118,89,93, 0.7);
   width: 240px;
   height: 140px;
 
@@ -96,7 +135,7 @@ html {
 .rectangulo1 {
 	height: 300px;
 	width: 200px;
-	background-color: rgba(139, 124, 126, 1.0);
+	background-color: rgba(139, 124, 126, 0.7);
 	position: relative;
 
 }
@@ -104,14 +143,14 @@ html {
 .cuadrado1 {
 	height: 150px;
 	width: 150px;
-	background-color: rgba(83, 54, 64, 1.0);
+	background-color: rgba(83, 54, 64, 0.7);
 	top: 250px;
 }
 
 .cuadrado2 {
-	height: 80px;
-	width: 80px;
-	background-color: rgba(20, 040, 0150, 1.0);
+	height: 95px;
+	width: 95px;
+	background-color: rgba(20, 040, 0150, 0.7);
 	/*background-color: rgba(255, 255, 255, 1.0);*/
 	position: absolute;
 	left: 60px;
