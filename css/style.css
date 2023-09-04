@@ -52,6 +52,13 @@ html {
 
 }
 
+.imagenFondoCuerpo {
+	background-image: url(/imagenes/Fondos/pngtreeBlackGothic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
 /* Colores para background */
 
 .blackSwan{
