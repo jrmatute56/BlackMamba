@@ -48,7 +48,8 @@ html {
     justify-content: flex-start;
     align-items: flex-end;
    */
-    padding: 10px;
+   /* position: relative;
+    padding: 10px;*/
 
 }
 
@@ -188,4 +189,51 @@ html {
 	position: absolute;
 	left: 60px;
 	top: 100px;
+}
+
+/* Modificar FOOTER */
+
+.piePagina {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*width: 600px;*/
+	height: 200px;
+}
+
+.fondoFooter { 
+	background-color: rgba(83, 54, 64, 0.4);
+	/*border-style: solid;
+	border-radius: 10px;*/
+ }
+
+.caja1 {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.caja2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.caja3 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.enlaceSinDecoracion {
+	text-decoration: none;
+	
+}
+
+.piePagina .caja3 a{
+	transition: all 500ms ease;
+}
+
+.piePagina .caja3 a:hover{
+	color: black;
 }
