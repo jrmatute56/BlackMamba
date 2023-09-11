@@ -178,7 +178,7 @@ html {
 	height: 150px;
 	width: 150px;
 	background-color: rgba(83, 54, 64, 0.7);
-	top: 250px;
+	top: 251px;
 }
 
 .cuadrado2 {
@@ -198,7 +198,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	/*width: 600px;*/
-	height: 200px;
+	height: 350px;
 }
 
 .fondoFooter { 
@@ -229,13 +229,35 @@ html {
 	text-decoration: none;	
 }
 
-.piePagina .cajaPpal .caja3 a img{
-	background-color:  rgba(83, 54, 64, 0.2);
+
+.piePagina .cajaPpal .caja2 a svg{
+	/*background-color:  rgba(83, 54, 64, 0.6);*/
 	transition: all 300ms ease !important;
+	height: 45px;
+	width: 45px;
+	color: black;
 }
 
-.piePagina .cajaPpal .caja3 a img:hover{
-	color: blue; !important;
+.piePagina .cajaPpal .caja2 a svg:hover{
+	color: red; !important;
+
+}
+
+
+
+
+
+
+.piePagina .cajaPpal .caja3 a svg{
+	/*background-color:  rgba(83, 54, 64, 0.6);*/
+	transition: all 300ms ease !important;
+	height: 45px;
+	width: 45px;
+	color: black;
+}
+
+.piePagina .cajaPpal .caja3 a svg:hover{
+	color: red; !important;
 
 }
 
