@@ -1,0 +1,5 @@
+#Ignorar Archivos y caropetaas
+node_modules/
+*.sublime-workspace
+*.sublime-project
+WireFrame/
