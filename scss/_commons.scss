@@ -59,7 +59,24 @@ html {
 	background-color: rgba(52, 49, 54, 0.7);
 }
 
+//BORDES PARA BOTONES - IMAGENES
 
+.bordeSimple{
+	border: $palido1;
+	border-radius: $grandeRadio;
+}
+
+.bordeTopLeftBottomRight {
+	border: $palido1;
+	border-top-left-radius: $grandeRadio;
+	border-bottom-right-radius: $grandeRadio ;
+}
+
+.bordeTopRightBottomLeft {
+	border: $palido1;
+	border-top-right-radius: $grandeRadio;
+	border-bottom-left-radius: $grandeRadio;
+}
 
 //FOOTER
 

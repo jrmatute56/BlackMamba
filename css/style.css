@@ -63,6 +63,20 @@ html {
 .domino {
   background-color: rgba(52, 49, 54, 0.7); }
 
+.bordeSimple {
+  border: whitesmoke;
+  border-radius: 15px; }
+
+.bordeTopLeftBottomRight {
+  border: whitesmoke;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px; }
+
+.bordeTopRightBottomLeft {
+  border: whitesmoke;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px; }
+
 .piePagina {
   display: flex;
   justify-content: center;
