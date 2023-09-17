@@ -1,0 +1,46 @@
+//Tipografia de Titulos, Textos
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Oswald:wght@200;300;400&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@300;400&display=swap');
+
+// Tipos de Fuentes
+
+.tipoMonserrat {
+	font-family: $tipoFamilia1;
+}
+
+.tipoAnton {
+	font-family: $tipoFamilia2;
+}
+
+.tipoArchivoBlack {
+	font-family: $tipoFamilia3;
+}
+
+//Colores para Textos
+
+.TextorojoCarmesi {
+	color: $carmesi;
+}
+
+.Textopurpura {
+	color: $purpura;
+}
+
+
+.TextoVerde {
+	color: $verde;
+}
+
+.TextoPalido {
+	color: $palido1;
+}
+
+.TextoPalido2 {
+	color: $palido2;
+}
+
+
+.Textopalido3 {
+	color: $palido3;
+}

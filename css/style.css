@@ -1,279 +1,126 @@
-
-/* Agregar tipografia, esta es la forma*/
-/*@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap');*/
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Oswald:wght@200;300;400&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@300;400&display=swap');
-
-/*Reset MARGIN-PADDING*/
-
-* {
-	margin: 0px;
-	padding: 0px;
-}
-
-/* NORMALIZAR TAMAÑO TEXTO */
-html {
-    font-size: 62.5%;
-}
-
-/*Centrar Texto*/
-
-.tituloCentro {
-  font-family: "Patric Hand", cursive;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #850000; }
-
-/*Modificar cuerpo*/
-
-.fondoBody {
-	
-	background-color: rgba(47, 47, 48, 1.0); /* Tricorn Black SW 6258*/
-	/*	
-		background-color: rgba(58, 55, 62, 0.7); Black Swan SW 6279
-		background-color: rgba(83, 54, 64, 0.7); Blackberry SW 7577
-		background-color: rgba(118, 89, 93, 0.7); River Rouge SW 6026
-		background-color: rgba(139, 124, 126, 0.7); Enigma SW 6018
-		background-color: rgba(108, 88, 88, 0.7); Deepest Mauve SW 0005
-		background-color: rgba(69, 62, 65, 0.7); Dark Room Sw 7083
-		background-color: rgba(52, 49, 54, 0.7); Domino SW 6989		
-	*/
-	
-	/*background: rgb(2,0,36);
-    background: linear-gradient(289deg, rgba(2,0,36,1) 23%, rgba(70,56,71,0.14469537815126055) 82%, rgba(86,72,88,0.2553396358543417) 94%);*/
-
-   /* 	
-    display: flex;
-    flex-direction:column;
-    justify-content: flex-start;
-    align-items: flex-end;
-   */
-   /* position: relative;
-    padding: 10px;*/
-
-}
-
-.imagenFondoCuerpo {
-	background-image: url(/imagenes/Fondos/pngtreeBlackGothic.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
-/* Colores para background */
-
-.blackSwan{
-	background-color: rgba(58, 55, 62, 0.7);
-}
-.blackBerry{
-	background-color: rgba(83, 54, 64, 0.7);
-}
-.riverRouge{
-	background-color: rgba(118, 89, 93, 0.7);
-}
-.enigma{
-	background-color: rgba(139, 124, 126, 0.7);
-}
-.deepestMauve{
-	background-color: rgba(108, 88, 88, 0.7);
-}
-.darkRoom{
-	background-color: rgba(69, 62, 65, 0.7);
-}
-.domino{
-	background-color: rgba(52, 49, 54, 0.7);
-}
-
-
-/* CAMBIO COLOR TEXTO NAV BAR */
-
-
-
-.nav-link {
-	color: #DF3F59 !important;
-
-}
-
-.dropdown-item {
-		color: #DF3F59 !important;
-}
-
-.btn {
-	color: #DF3F59 !important;
-}
-
-
-/* Tipos de Fuentes */
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Oswald:wght@200;300;400&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@300;400&display=swap");
 .tipoMonserrat {
-	font-family: "Montserrat";
-}
+  font-family: "Monserrat"; }
 
 .tipoAnton {
-	font-family: "Anton";
-}
+  font-family: "Anton"; }
 
 .tipoArchivoBlack {
-	font-family: "Archivo+Black";
-}
-
-
-
-
-/* Texto Colores */
+  font-family: "Archivo+Black"; }
 
 .TextorojoCarmesi {
-	color: #EF1313;
-}
+  color: #EF1313; }
 
 .Textopurpura {
-	color: #7A2F92;
-}
-
+  color: #7A2F92; }
 
 .TextoVerde {
-	color: #224D31;
-}
+  color: #224D31; }
 
 .TextoPalido {
-	color: whitesmoke;
-}
+  color: whitesmoke; }
 
 .TextoPalido2 {
-	color: ghostwhite;
-}
-
+  color: ghostwhite; }
 
 .Textopalido3 {
-	color: snow;
-}
+  color: snow; }
 
+* {
+  margin: 0px;
+  padding: 0px; }
 
+html {
+  font-size: 62.5%; }
 
-/*Modificar contenedor*/
+.fondoBody {
+  background-color: #2f2f30;
+  /* Tricorn Black SW 6258*/ }
 
+.imagenFondoCuerpo {
+  background-image: url(/imagenes/Fondos/pngtreeBlackGothic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-.contenedor {
-  background-color: rgba(118,89,93, 0.7);
-  width: 240px;
-  height: 140px;
+.blackSwan {
+  background-color: rgba(58, 55, 62, 0.7); }
 
-  padding: 10px;
+.blackBerry {
+  background-color: rgba(83, 54, 64, 0.7); }
+
+.riverRouge {
+  background-color: rgba(118, 89, 93, 0.7); }
+
+.enigma {
+  background-color: rgba(139, 124, 126, 0.7); }
+
+.deepestMauve {
+  background-color: rgba(108, 88, 88, 0.7); }
+
+.darkRoom {
+  background-color: rgba(69, 62, 65, 0.7); }
+
+.domino {
+  background-color: rgba(52, 49, 54, 0.7); }
+
+.piePagina {
   display: flex;
   justify-content: center;
+  align-items: center;
+  /*width: 600px;*/
+  height: 350px; }
 
-}
-
-/*Varios formas Posición*/
-
-.rectangulo1 {
-	height: 300px;
-	width: 200px;
-	background-color: rgba(139, 124, 126, 0.7);
-	position: relative;
-
-}
-
-.cuadrado1 {
-	height: 150px;
-	width: 150px;
-	background-color: rgba(83, 54, 64, 0.7);
-	top: 251px;
-}
-
-.cuadrado2 {
-	height: 95px;
-	width: 95px;
-	background-color: rgba(20, 040, 0150, 0.7);
-	/*background-color: rgba(255, 255, 255, 1.0);*/
-	position: absolute;
-	left: 60px;
-	top: 100px;
-}
-
-/* Modificar FOOTER */
-
-.piePagina {	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*width: 600px;*/
-	height: 350px;
-}
-
-.fondoFooter { 
-	background-color: rgba(83, 54, 64, 0.4);
-	/*border-style: solid;
-	border-radius: 10px;*/
- }
-
-.caja1 {
-	display: flex;
-	justify-content: start;
-	align-items: center;
-}
-
-.caja2 {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
-.caja3 {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-}
+.fondoFooter {
+  background-color: rgba(83, 54, 64, 0.4);
+  /*border-style: solid;
+	border-radius: 10px;*/ }
 
 .enlaceSinDecoracion {
-	text-decoration: none;	
-}
+  text-decoration: none; }
 
+.caja1 {
+  display: flex;
+  justify-content: start;
+  align-items: center; }
 
-.piePagina .cajaPpal .caja2 a svg{
-	/*background-color:  rgba(83, 54, 64, 0.6);*/
-	transition: all 300ms ease !important;
-	height: 45px;
-	width: 45px;
-	color: black;
-}
+.caja2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
-.piePagina .cajaPpal .caja2 a svg:hover{
-	color: red; !important;
+.piePagina .cajaPpal .caja2 a svg {
+  /*background-color:  rgba(83, 54, 64, 0.6);*/
+  transition: all 300ms ease !important;
+  height: 45px;
+  width: 45px;
+  color: black; }
 
-}
+.piePagina .cajaPpal .caja2 a svg:hover {
+  color: red !important; }
 
+.piePagina .cajaPpal .caja2 p {
+  transition: all 500ms ease; }
 
+.piePagina .cajaPpal .caja2 p:hover {
+  color: red; }
 
+.caja3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
+.piePagina .cajaPpal .caja3 a svg {
+  /*background-color:  rgba(83, 54, 64, 0.6);*/
+  transition: all 300ms ease !important;
+  height: 45px;
+  width: 45px;
+  color: black; }
 
+.piePagina .cajaPpal .caja3 a svg:hover {
+  color: red !important; }
 
-.piePagina .cajaPpal .caja3 a svg{
-	/*background-color:  rgba(83, 54, 64, 0.6);*/
-	transition: all 300ms ease !important;
-	height: 45px;
-	width: 45px;
-	color: black;
-}
+.piePagina .cajaPpal .caja3 p {
+  transition: all 500ms ease; }
 
-.piePagina .cajaPpal .caja3 a svg:hover{
-	color: red; !important;
-
-}
-
-.piePagina .cajaPpal .caja2 p{
-	transition: all 500ms ease;
-}
-
-.piePagina .cajaPpal .caja2 p:hover{
-	color: red;
-}
-
-
-.piePagina .cajaPpal .caja3 p{
-	transition: all 500ms ease;
-}
-
-.piePagina .cajaPpal .caja3 p:hover{
-	color: red;
-}
+.piePagina .cajaPpal .caja3 p:hover {
+  color: red; }
