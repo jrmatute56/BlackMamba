@@ -59,6 +59,42 @@ html {
 	background-color: rgba(52, 49, 54, 0.7);
 }
 
+//NAVBAR MODIFICACION
+
+.navbar-toggler {
+	color: red !important;
+	background-color: $riverRouge !important;
+}
+
+.navbar-toggler-icon {
+		color: red !important;
+	}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	color: $rojo1;
+}
+
+.navbar .dropdown .dropdown-menu {
+	background-color: $blackBerrylight !important;
+	border-color: black;
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: $medioRadio;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item {
+	color: red !important;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-divider {
+	color: black;
+	height: 5px;
+}
+
+
+
+
+
 //BORDES PARA BOTONES - IMAGENES
 
 .bordeSimple{
