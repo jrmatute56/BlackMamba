@@ -101,6 +101,24 @@ html {
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px; }
 
+.tarjetas {
+  width: 28rem;
+  border: solid;
+  border-radius: 15px;
+  padding: 8px 8px;
+  background-color: #f8f5f1; }
+  .tarjetas img {
+    border: none;
+    border-radius: 15px !important; }
+  .tarjetas h5 {
+    color: red; }
+  .tarjetas p {
+    color: #381c1c; }
+  .tarjetas a.btn {
+    background-color: rgba(108, 88, 88, 0.7) !important;
+    border-color: black !important;
+    border-radius: 25px !important; }
+
 .piePagina {
   display: flex;
   justify-content: center;

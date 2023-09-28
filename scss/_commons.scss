@@ -93,8 +93,6 @@ html {
 
 
 
-
-
 //BORDES PARA BOTONES - IMAGENES
 
 .bordeSimple{
@@ -113,6 +111,52 @@ html {
 	border-top-right-radius: $grandeRadio;
 	border-bottom-left-radius: $grandeRadio;
 }
+
+
+//CARD MODIFICACIONES
+
+.tarjetas {
+
+	width: 28rem;
+	border: solid;
+	border-radius: $grandeRadio;
+	padding: 8px 8px;
+	background-color: $blancoLugubre;
+
+	& img {
+
+		border: none;
+		border-radius: $grandeRadio !important;
+
+	}
+
+	& h5 {
+
+		color: red;
+
+	}
+
+	& p {
+
+		color: $noTanNegro;
+
+	}
+
+	& a.btn {
+
+		background-color: $deepestMauve !important;
+		border-color: black !important;
+		border-radius: $extraGrandeRadio !important;
+
+
+	}
+
+}
+
+
+
+
+
 
 //FOOTER
 
