@@ -73,6 +73,9 @@ html {
 .navbar .navbar-nav .nav-item .nav-link {
   color: #DF3F59 !important; }
 
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: ghostwhite !important; }
+
 .navbar .dropdown .dropdown-menu {
   background-color: rgba(83, 54, 64, 0.4) !important;
   border-color: black;
@@ -118,6 +121,14 @@ html {
     background-color: rgba(108, 88, 88, 0.7) !important;
     border-color: black !important;
     border-radius: 25px !important; }
+
+.barraLateral {
+  height: 800px;
+  background-color: ghostwhite; }
+
+.cuerpoCarrito {
+  height: 600px;
+  background-color: ghostwhite; }
 
 .piePagina {
   display: flex;

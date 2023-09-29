@@ -74,6 +74,12 @@ html {
 	color: $rojo1;
 }
 
+.navbar .navbar-nav .nav-item .nav-link:hover {
+
+	color: ghostwhite !important;
+
+}
+
 .navbar .dropdown .dropdown-menu {
 	background-color: $blackBerrylight !important;
 	border-color: black;
@@ -154,7 +160,25 @@ html {
 }
 
 
+// CARRITO COMPRA
 
+
+	// BARRA LATERAL
+
+	.barraLateral {
+
+		height: 800px;
+		background-color: ghostwhite;
+
+
+	}
+	
+	.cuerpoCarrito {
+
+		height: 600px;
+		background-color: ghostwhite;
+
+	}
 
 
 
