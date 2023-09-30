@@ -42,6 +42,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.centradoTotal {
+  margin: 0 auto; }
+
 .blackSwan {
   background-color: rgba(58, 55, 62, 0.7); }
 
