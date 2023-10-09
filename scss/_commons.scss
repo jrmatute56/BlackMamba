@@ -4,6 +4,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 //Normalizar tamaño font
@@ -12,6 +13,17 @@ html {
 }
 
 //Body
+
+
+.centradoAbsoluto {
+
+	display: flex;
+	//align-items: center;
+	justify-content: center;
+	//min-height: 100vh;
+}
+
+
 
 .fondoBody {
 	
@@ -128,7 +140,7 @@ html {
 
 .tarjetas {
 
-	width: 28rem;
+	width: 19rem;
 	border: solid;
 	border-radius: $grandeRadio;
 	padding: 8px 8px;
@@ -180,9 +192,15 @@ html {
 	
 	.cuerpoCarrito {
 
-		height: 600px;
+		height: 800px;
 		background-color: ghostwhite;
-
+		& img {
+			width: 12rem;
+			border: solid thin;
+			border-radius: $grandeRadio;
+			padding: 8px 8px;
+			background-color: $blancoLugubre;
+		}
 	}
 
 

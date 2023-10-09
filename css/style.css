@@ -28,10 +28,15 @@
 
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  box-sizing: border-box; }
 
 html {
   font-size: 62.5%; }
+
+.centradoAbsoluto {
+  display: flex;
+  justify-content: center; }
 
 .fondoBody {
   background-color: #2f2f30;
@@ -108,7 +113,7 @@ html {
   border-bottom-left-radius: 15px; }
 
 .tarjetas {
-  width: 28rem;
+  width: 19rem;
   border: solid;
   border-radius: 15px;
   padding: 8px 8px;
@@ -130,8 +135,14 @@ html {
   background-color: ghostwhite; }
 
 .cuerpoCarrito {
-  height: 600px;
+  height: 800px;
   background-color: ghostwhite; }
+  .cuerpoCarrito img {
+    width: 12rem;
+    border: solid thin;
+    border-radius: 15px;
+    padding: 8px 8px;
+    background-color: #f8f5f1; }
 
 .piePagina {
   display: flex;
