@@ -23,6 +23,11 @@ html {
 	//min-height: 100vh;
 }
 
+.bodySize {
+
+	max-width: 1800px;
+
+}
 
 
 .fondoBody {
@@ -74,6 +79,19 @@ html {
 }
 .domino{
 	background-color: rgba(52, 49, 54, 0.7);
+}
+
+
+//SIZE TIPOGRAFIA
+.letraChica {
+	font-size: $tipoChico;
+}
+.letraMediana {
+	font-size: $tipoMediano;
+}
+
+.letraGrande {
+	font-size: $tipoGrande;
 }
 
 //NAVBAR MODIFICACION
@@ -178,6 +196,15 @@ html {
 
 
 // CARRITO COMPRA
+	
+	//TOPE CARRITO
+
+	.cabezeraCarrito {
+		width: 100%;
+		border: solid thin;
+		border-color: black;
+		background-color: $palido2;
+	}
 
 
 	// BARRA LATERAL
@@ -185,7 +212,26 @@ html {
 	.barraLateral {
 
 		height: 800px;
-		background-color: ghostwhite;
+		background-color: $blackBerrylight;
+		border: solid thin;
+		border-color: black;
+		border-radius: $grandeRadio;
+		& ul {
+			list-style: none;
+		}
+
+		& button {
+
+			width: 100%;
+			padding: 5px 5px;
+			border-radius: $grandeRadio;
+			background-color: aliceblue;
+		}
+
+		& button:hover{
+			color: brown;
+			font-weight: 400;
+		}
 
 
 	}
@@ -193,7 +239,10 @@ html {
 	.cuerpoCarrito {
 
 		height: 800px;
-		background-color: ghostwhite;
+		background-color: $blackBerrylight;
+		border: solid thin;
+		border-color: black;
+		border-radius: $grandeRadio;
 		& img {
 			width: 12rem;
 			border: solid thin;

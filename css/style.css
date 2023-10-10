@@ -38,6 +38,9 @@ html {
   display: flex;
   justify-content: center; }
 
+.bodySize {
+  max-width: 1800px; }
+
 .fondoBody {
   background-color: #2f2f30;
   /* Tricorn Black SW 6258*/ }
@@ -70,6 +73,15 @@ html {
 
 .domino {
   background-color: rgba(52, 49, 54, 0.7); }
+
+.letraChica {
+  font-size: 1rem; }
+
+.letraMediana {
+  font-size: 2rem; }
+
+.letraGrande {
+  font-size: 2.5rem; }
 
 .navbar-toggler {
   color: red !important;
@@ -130,13 +142,35 @@ html {
     border-color: black !important;
     border-radius: 25px !important; }
 
+.cabezeraCarrito {
+  width: 100%;
+  border: solid thin;
+  border-color: black;
+  background-color: ghostwhite; }
+
 .barraLateral {
   height: 800px;
-  background-color: ghostwhite; }
+  background-color: rgba(83, 54, 64, 0.4);
+  border: solid thin;
+  border-color: black;
+  border-radius: 15px; }
+  .barraLateral ul {
+    list-style: none; }
+  .barraLateral button {
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: aliceblue; }
+  .barraLateral button:hover {
+    color: brown;
+    font-weight: 400; }
 
 .cuerpoCarrito {
   height: 800px;
-  background-color: ghostwhite; }
+  background-color: rgba(83, 54, 64, 0.4);
+  border: solid thin;
+  border-color: black;
+  border-radius: 15px; }
   .cuerpoCarrito img {
     width: 12rem;
     border: solid thin;
