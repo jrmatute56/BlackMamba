@@ -132,7 +132,23 @@ html {
 	height: 5px;
 }
 
+//CAROUSEL
 
+.areaCarousel{
+
+	border: solid thin;
+	border-color: red;
+	width: 95vw;
+	height: 200px;
+
+
+}
+
+.cubrirAreaCarousel {
+
+	object-fit: cover;
+	
+}
 
 //BORDES PARA BOTONES - IMAGENES
 
@@ -180,6 +196,7 @@ html {
 	& p {
 
 		color: $noTanNegro;
+		font-size: $tipoChico1 !important;
 
 	}
 
@@ -203,7 +220,8 @@ html {
 		width: 100%;
 		border: solid thin;
 		border-color: black;
-		background-color: $palido2;
+		border-radius: $grandeRadio;
+		background-color: $palido4;
 	}
 
 
@@ -212,10 +230,10 @@ html {
 	.barraLateral {
 
 		height: 800px;
-		background-color: $blackBerrylight;
 		border: solid thin;
 		border-color: black;
 		border-radius: $grandeRadio;
+		background-color: $blackBerrylight;
 		& ul {
 			list-style: none;
 		}
@@ -225,7 +243,7 @@ html {
 			width: 100%;
 			padding: 5px 5px;
 			border-radius: $grandeRadio;
-			background-color: aliceblue;
+			background-color: $palido4;
 		}
 
 		& button:hover{

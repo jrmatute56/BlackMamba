@@ -110,6 +110,15 @@ html {
   color: black;
   height: 5px; }
 
+.areaCarousel {
+  border: solid thin;
+  border-color: red;
+  width: 95vw;
+  height: 200px; }
+
+.cubrirAreaCarousel {
+  object-fit: cover; }
+
 .bordeSimple {
   border: whitesmoke;
   border-radius: 15px; }
@@ -136,7 +145,8 @@ html {
   .tarjetas h5 {
     color: red; }
   .tarjetas p {
-    color: #381c1c; }
+    color: #381c1c;
+    font-size: 1.5rem !important; }
   .tarjetas a.btn {
     background-color: rgba(108, 88, 88, 0.7) !important;
     border-color: black !important;
@@ -146,21 +156,22 @@ html {
   width: 100%;
   border: solid thin;
   border-color: black;
-  background-color: ghostwhite; }
+  border-radius: 15px;
+  background-color: rgba(245, 243, 243, 0.5); }
 
 .barraLateral {
   height: 800px;
-  background-color: rgba(83, 54, 64, 0.4);
   border: solid thin;
   border-color: black;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: rgba(83, 54, 64, 0.4); }
   .barraLateral ul {
     list-style: none; }
   .barraLateral button {
     width: 100%;
     padding: 5px 5px;
     border-radius: 15px;
-    background-color: aliceblue; }
+    background-color: rgba(245, 243, 243, 0.5); }
   .barraLateral button:hover {
     color: brown;
     font-weight: 400; }
