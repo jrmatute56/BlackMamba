@@ -134,20 +134,25 @@ html {
 
 //CAROUSEL
 
-.areaCarousel{
+.areaCarousel {
 
 	border: solid thin;
 	border-color: red;
 	width: 95vw;
-	height: 200px;
+	height: 220px;
 
 
 }
 
-.cubrirAreaCarousel {
 
+.carousel-inner > .carousel-item > img {
 	object-fit: cover;
-	
+	height: 30vh;
+	width: 98%;
+	border-style: double;
+	border-color: black;
+	border-width: 4px;
+	border-radius: $grandeRadio;
 }
 
 //BORDES PARA BOTONES - IMAGENES
