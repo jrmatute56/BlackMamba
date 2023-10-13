@@ -239,6 +239,7 @@ html {
 		border-color: black;
 		border-radius: $grandeRadio;
 		background-color: $blackBerrylight;
+		max-width: 300px;
 		& ul {
 			list-style: none;
 		}
@@ -267,10 +268,10 @@ html {
 		border-color: black;
 		border-radius: $grandeRadio;
 		& img {
-			width: 12rem;
+			width: 7rem;
 			border: solid thin;
 			border-radius: $grandeRadio;
-			padding: 8px 8px;
+			padding: 4px 4px;
 			background-color: $blancoLugubre;
 		}
 	}

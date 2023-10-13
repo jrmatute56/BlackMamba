@@ -170,7 +170,8 @@ html {
   border: solid thin;
   border-color: black;
   border-radius: 15px;
-  background-color: rgba(83, 54, 64, 0.4); }
+  background-color: rgba(83, 54, 64, 0.4);
+  max-width: 300px; }
   .barraLateral ul {
     list-style: none; }
   .barraLateral button {
@@ -189,10 +190,10 @@ html {
   border-color: black;
   border-radius: 15px; }
   .cuerpoCarrito img {
-    width: 12rem;
+    width: 7rem;
     border: solid thin;
     border-radius: 15px;
-    padding: 8px 8px;
+    padding: 4px 4px;
     background-color: #f8f5f1; }
 
 .piePagina {
